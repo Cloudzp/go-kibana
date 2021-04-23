@@ -71,7 +71,7 @@ func newKibanaContainer(pool *dockertest.Pool, elasticSearch *elasticSearchConta
 		}
 
 		indexPatternClient := client.IndexPattern()
-		indexPatternCreateResult, err = indexPatternClient.Create()
+		indexPatternCreateResult, err = indexPatternClient.Create("")
 		if err != nil {
 			log.Printf("Could not create index pattern:%s\n", err)
 			return err
