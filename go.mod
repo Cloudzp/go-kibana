@@ -1,4 +1,4 @@
-module github.com/ewilde/go-kibana
+module github.com/Cloudzp/go-kibana
 
 go 1.12
 
